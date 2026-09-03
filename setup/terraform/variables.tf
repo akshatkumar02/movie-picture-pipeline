@@ -1,5 +1,5 @@
 variable "k8s_version" {
-  default = "1.25"
+  default = "1.34"
 }
 
 variable "enable_private" {
@@ -17,3 +17,4 @@ variable "private_az" {
   description = "Change this to a letter a-f only if you encounter an error during setup"
   default     = "b"
 }
+
